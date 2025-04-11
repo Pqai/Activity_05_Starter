@@ -117,7 +117,7 @@ namespace UserDefinedException
                 }
                 catch (MyInvalidException e)
                 {
-                    Console.WriteLine("MyNameException: {0}, e.Message");
+                    Console.WriteLine("MyNameException: {0}", e.Message);
                     eObj = e;
                 }
             } while (eObj != null);
@@ -184,7 +184,7 @@ namespace UserDefinedException
                 }
                 catch (MyInvalidException e)
                 {
-                    Console.WriteLine("MyPhoneException: {0}, e.Message");
+                    Console.WriteLine("MyPhoneException: {0}", e.Message);
                     eObj = e;
                 }
             } while (eObj != null);
